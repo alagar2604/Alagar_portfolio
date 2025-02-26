@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: #060606 !important;
+
+}
+.main-1{
+    height: 100vh !important;
+    background-color: #060606 !important;
+    background-image: url("./assets/alagar.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+.main-2{
+   min-height: 100vh !important ;
+}
+.main-3{
+   min-height: 100vh !important; 
+   background-color: #060606 !important;
+
+ }
+ .main-4{
+    min-height: 100vh !important ;
+ }
+
+ .main-5{
+     
+    background-color: #060606 !important;
+ 
+  }
+ 
+ 
+
+
+.card1{
+    background-image: url("https://images.pexels.com/photos/12200696/pexels-photo-12200696.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50vh !important;
+}
+.card2{
+    background-image: url("https://images.pexels.com/photos/8891159/pexels-photo-8891159.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50vh !important;
+}
+.card3{
+    background-image: url("https://images.pexels.com/photos/3143813/pexels-photo-3143813.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50vh !important;
+}
+.card4{
+    background-image: url("https://images.pexels.com/photos/3098620/pexels-photo-3098620.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50vh !important;
+}
+.card5{
+    background-image: url("https://images.pexels.com/photos/7693229/pexels-photo-7693229.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50vh !important;
+}
+.card6{
+    background-image: url("https://images.pexels.com/photos/18311089/pexels-photo-18311089/free-photo-of-laptop-iphone-and-headphones.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50vh !important;
+}
+
+.contact{
+    background-color: #060606 !important;
+
+}
