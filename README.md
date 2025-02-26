@@ -6,7 +6,7 @@ This is a responsive portfolio built with **React.js** and **Bootstrap**. The we
   
    <h1>Preview</h1>   
    
-   <img src="./preview2.png" />
+   <img src="./preview2.PNG" />
 
 [Live](https://alagar2604.github.io/Alagar_portfolio/) 
 
