@@ -9,7 +9,7 @@ function About() {
            <h3 className='text-light '> I AM ALAGARSAMY</h3>
            <h1 className='text-light fw-bolder '>FRONT-END DEVELOPER</h1>
            
-           <button className='btn rounded-0 border-light text-light fw-bold '>CONTACT ME</button>
+           <button className='btn rounded-0 border-light text-light fw-bold ' id='contact'>CONTACT ME</button>
         </div>
     </div>
     <div className="container-fluid main-2 bg-dark ">
