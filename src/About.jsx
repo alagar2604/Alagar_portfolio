@@ -40,7 +40,8 @@ function About() {
             <div className=" col-12 col-lg-6  ">
                <div className="container h-100 ">
                  
-                 <img src="https://react.tumho.iamubaidah.com/static/media/about.163ef54c.png " className='w-100 border border-1 border-light p-3 ' alt="" height={"100%"}  />
+                 <img src="./assets/logo.jpg" className='w-100 border border-1 border-light p-3 ' alt="" height={"100%"}  />
+                 
                </div>
                
 
