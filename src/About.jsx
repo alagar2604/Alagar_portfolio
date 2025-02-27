@@ -4,11 +4,10 @@ import Pic from './Pic'
 function About() {
   return (
     <>
-    <div className="container-fluid main-1  p-3 h-100  w-100 d-flex justify-content-center align-items-center">
+    <div className="container-fluid main-1 d-flex justify-content-center align-items-center">
         <div className="container  d-flex justify-content-center align-items-center align-items-lg-start  flex-column">
            <h3 className='text-light '> I AM ALAGARSAMY</h3>
            <h1 className='text-light fw-bolder '>FRONT-END DEVELOPER</h1>
-           
            <a className='btn rounded-0 border-light text-light fw-bold ' href='#contact'>CONTACT ME</a>
         </div>
     </div>
@@ -39,7 +38,6 @@ function About() {
             
             <div className=" col-12 col-lg-6  ">
                <div className="container h-100 ">
-                 
                  <img src="https://images.pexels.com/photos/5935788/pexels-photo-5935788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className='w-100 border border-1 border-light p-3 ' alt="" height={"100%"}  />
                  
                </div>

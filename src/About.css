@@ -7,12 +7,18 @@
 
 }
 .main-1{
-    height: 100vh !important;
+    min-height: 100vh !important;
     background-color: #060606 !important;
-    background-image: url("./assets/alagar.png");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./assets/alagar.png") !important;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: top;
+}
+
+
+ 
+.nav-link{
+    text-align: end;
 }
 .main-2{
    min-height: 100vh !important ;
@@ -30,6 +36,10 @@
      
     background-color: #060606 !important;
  
+  }
+
+  .logo{
+    mix-blend-mode: screen !important;
   }
  
  
