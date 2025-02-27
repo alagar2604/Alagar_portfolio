@@ -32,7 +32,7 @@ function About() {
                <p className='text-light py-4'>As a passionate freelance front-end developer, I bring a blend of technical expertise and creative vision to craft visually appealing and user-friendly websites. With proficiency in HTML, CSS, JavaScript, and modern frameworks like React and Vue, I excel at translating design concepts into pixel-perfect digital experiences. </p>
                <p className='text-light'> My focus on responsive design, performance optimization, and accessibility ensures seamless interactions across all devices. I thrive in collaborative environments, working closely with clients to understand their needs and deliver high-quality projects on time and within budget.</p>
              
-           <button className='btn rounded-0 border-light text-light fw-bold  my-4 w-25'> Download CV</button>
+           <button className='btn rounded-0 border-light text-light fw-bold  my-4 px-3'> Download CV</button>
 
             </div>
             
@@ -77,7 +77,7 @@ function About() {
                       <input type="text" placeholder='Your Phone' className='bg-dark text-light border-1 w-75 py-2 px-3'/>
                     </div>
                     <div className="col-12 col-lg-6 py-3">
-                      <input type="text" placeholder='Your Address' className='bg-dark text-light border-1 w-75 py-2 px-3'/>
+                      <input type="text" placeholder='Your Address' className='bg-dark text-light border-0 w-75 py-2 px-3'/>
                     </div>
                     <div className="col-12 ">
                         <textarea name="" id="" placeholder='Your Message 'className='bg-dark text-light px-2 w-75 h-100'></textarea>
