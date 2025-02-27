@@ -2,20 +2,21 @@ import React from 'react'
 import "./About.css"
 import Pic from './Pic'
 import Logo from '../src/assets/logoS.jpg'
+import 'aos/dist/aos.css';
 
 function About() {
   return (
     <>
     <div className="container-fluid main-1 d-flex justify-content-center align-items-center">
         <div className="container  d-flex justify-content-center align-items-center align-items-lg-start  flex-column">
-           <h3 className='text-light '> I AM ALAGARSAMY</h3>
-           <h1 className='text-light fw-bolder '>FRONT-END DEVELOPER</h1>
-           <a className='btn rounded-0 border-light text-light fw-bold ' href='#contact'>CONTACT ME</a>
+           <h3 className='text-light ' data-aos="fade-right" data-aos-duration="1000"> I AM ALAGARSAMY</h3>
+           <h1 className='text-light fw-bolder ' data-aos="fade-left" data-aos-duration="2000">FRONT-END DEVELOPER</h1>
+           <a className='btn rounded-0 border-light text-light fw-bold ' href='#contact' data-aos="fade-up" data-aos-duration="1000">CONTACT ME</a>
         </div>
     </div>
-    <div className="container-fluid main-2 bg-dark ">
-            <div className="container-fluid py-5">
-                   <h4 className='text-light text-center'>What i do</h4>
+    <div className="container-fluid main-2 bg-dark " >
+            <div className="container-fluid py-5"  data-aos="fade-down">
+                   <h4 className='text-light text-center' >What i do</h4>
                    <h2 className='text-light fw-bold fs-1 text-center'>My service</h2>
            </div>
           
@@ -30,7 +31,7 @@ function About() {
       <div className="row  ">
             <div className="col-12 col-lg-6  py-5 d-flex flex-column justify-content-center">
               <h5 className='text-light'>expert Front-End-Developer</h5>
-               <h1 className='fw-bold text-light fs-3 py-2'>About Me</h1>
+               <h1 className='fw-bold text-light fs-3 py-2'  data-aos="fade-right" data-aos-duration="1000">About Me</h1>
                <p className='text-light py-4'>As a passionate freelance front-end developer, I bring a blend of technical expertise and creative vision to craft visually appealing and user-friendly websites. With proficiency in HTML, CSS, JavaScript, and modern frameworks like React and Vue, I excel at translating design concepts into pixel-perfect digital experiences. </p>
                <p className='text-light'> My focus on responsive design, performance optimization, and accessibility ensures seamless interactions across all devices. I thrive in collaborative environments, working closely with clients to understand their needs and deliver high-quality projects on time and within budget.</p>
              
@@ -70,11 +71,10 @@ function About() {
                  <h2 className='text-light fw-bold  py-4'>Quick Contact Form</h2>
                   <div className="row  ">
 
-                      <input type="text" placeholder='Your Name' className='bg-dark text-light border-1  py-2 my-2'/>
-                      <input type="text" placeholder='Your E-mail' className='bg-dark text-light border-1  py-2 my-2 '/>
-                      <input type="text" placeholder='Your Phone' className='bg-dark text-light border-1  py-2 my-2'/>
-                      <input type="text" placeholder='Your Address' className='bg-dark text-light border-1 py-2 my-2'/>
-                        <textarea name="" id="" placeholder='Your Message 'className='bg-dark text-light   '></textarea>
+                      <input type="text" placeholder='Your Name' className='bg-dark text-light border border-1 border-light  py-2 my-2'/>
+                      <input type="text" placeholder='Your Phone' className='bg-dark text-light border border-1 border-light  py-2 my-2'/>
+                      <input type="text" placeholder='Your Address' className='bg-dark text-light border border-1 border-light py-2 my-2'/>
+                        <textarea name="" id="" placeholder='Your Message 'className='bg-dark border border-1 border-light text-light   '></textarea>
                   </div>
                  
                   <button className='py-2 px-4 bg-dark border-1 my-3 text-light fw-bold   '>Submit</button>
@@ -88,7 +88,7 @@ function About() {
     </div>
     {/* footer */}
     <div className="container-fluid main-5  py-5">
-        <div className="container d-flex justify-content-center">
+        <div className="container d-flex justify-content-center"  data-aos="fade-left" data-aos-duration="2000">
                <img src={Logo} alt="" width={"100px"} className='mx-3 logo' />
              
         </div>

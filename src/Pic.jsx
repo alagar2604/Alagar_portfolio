@@ -4,7 +4,7 @@ import Card from './Card'
 function Pic() {
   return (
     <>
-    <div className="container-fluid  p-3 " id='service'>
+    <div className="container-fluid  p-3 " id='service' >
        <div className="row g-4">
          <Card Name="card1"/>
          <Card Name="card2"/>

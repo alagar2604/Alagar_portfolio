@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../src/assets/logoS.jpg'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Navbar() {
   return (
     <>
@@ -13,7 +14,7 @@ function Navbar() {
   <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
 </svg>
     </button>
-     <div className="collapse navbar-collapse" id="navbarSupportedContent">
+     <div className="collapse navbar-collapse" id="navbarSupportedContent"  data-aos="fade-right" data-aos-duration="1000">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
         <li className="nav-item mx-3">
           <a className="nav-link active text-light" aria-current="page" href="#about">ABOUT</a>
