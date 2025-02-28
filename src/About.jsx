@@ -67,8 +67,8 @@ function About() {
              <p className='text-light'>alagarsamy200401@gmail.com</p>
              </div>
 
-             <div className="col-12 col-lg-6 d-flex flex-column justify-content-center py-3 ">
-                 <h2 className='text-light fw-bold  py-4'>Quick Contact Form</h2>
+             <div className="col-12 col-lg-6 d-flex flex-column justify-content-center   ">
+                 <h2 className='text-light fw-bold py-4 pt-4' >Quick Contact Form</h2>
                   <div className="row  ">
 
                       <input type="text" placeholder='Your Name' className='bg-dark text-light border border-1 border-light  py-2 my-2'/>
