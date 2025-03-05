@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect ,useState } from 'react'
 import './App.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
@@ -13,13 +13,15 @@ import Pic from './Pic'
 function App() {
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
+
+  const [Theme, setTheme] = useState(true);
 
   return (
     <>
-        <Navbar/>
-        <div className="container-fluid m-0 p-0">
-        <About />
+        <Navbar mode={Theme}  setmode={setTheme}/>
+        <div className="container-fluid all m-0 p-0">
+        <About  mode={Theme} />
         </div>
     
     </>
